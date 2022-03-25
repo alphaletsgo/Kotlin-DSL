@@ -62,6 +62,9 @@ fun html(block: HtmlBlock.() -> Unit) {
     Output.output(html.render())
 }
 
+/**
+ * 待完善 meta标签 —— 非闭合标签
+ */
 fun main() {
     html {
         head {
